@@ -1,5 +1,10 @@
-# Build-on-Trainium
-Build on Trainium
+# Build on Trainium
+
+A landing page for getting started with Build on Trainium.
+
+## Model examples
+
+A collection of Neuron model examples lives here: https://github.com/arminagha1234/Armin-Neuron
 
 ## Increasing your vCPU limit
 
