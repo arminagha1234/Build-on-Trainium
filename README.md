@@ -12,7 +12,7 @@ When you need to increase your vCPU limit, go to this link: https://pulse.aws/su
 
 ## How to launch a Trn2 capacity block
 
-See the full guide: [How to Launch a Trn2 Capacity Block](https://builder.aws.com/content/38wuiaD6PtuuJdYo3QZaCxyhGvY/how-to-launch-a-trn2-capacity-block)
+This is a step-by-step guide on how to: [How to Launch a Trn2 Capacity Block](https://builder.aws.com/content/38wuiaD6PtuuJdYo3QZaCxyhGvY/how-to-launch-a-trn2-capacity-block)
 
 ## How to invite your students
 
