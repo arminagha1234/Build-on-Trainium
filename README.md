@@ -27,3 +27,7 @@ This is a step-by-step guide on how to launch a Trn2 capacity block: [How to Lau
 ## Model examples
 
 A collection of Neuron model examples lives here: https://github.com/arminagha1234/Armin-Neuron
+
+## Neuron agentic skills
+
+Kiro/Claude AI agents and skills for Neuron development — NKI kernel authoring/debugging/profiling plus running models on Trainium with native PyTorch (eager + torch.compile): https://github.com/arminagha1234/neuron-agentic-development-nativept
