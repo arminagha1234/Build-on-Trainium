@@ -6,6 +6,8 @@ A landing page for getting started with Build on Trainium.
 
 > _TODO: short intro — who this is for, what you'll need (AWS account, region, access)._
 
+## AWS 101 for Trainium (workshop)
+A hands-on beginner workshop that walks through setting up AWS for Trainium end to end: IAM user, budget alerts, AWS CLI install/config, launching and connecting to a Trainium instance, running a first ML workload, and cleanup. Takes ~1.5–2 hours. Repo: [scttfrdmn/aws-101-for-trainium](https://github.com/scttfrdmn/aws-101-for-trainium).
 ## Increasing your vCPU limit
 
 When you need to increase your vCPU limit, go to this link: https://pulse.aws/survey/B2D7WSLE?p=0
