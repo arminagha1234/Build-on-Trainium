@@ -16,6 +16,25 @@ When you need to increase your vCPU limit, go to this link: https://pulse.aws/su
 
 This is a step-by-step guide on how to launch a Trn2 capacity block: [How to Launch a Trn2 Capacity Block](https://builder.aws.com/content/38wuiaD6PtuuJdYo3QZaCxyhGvY/how-to-launch-a-trn2-capacity-block)
 
+## Autonomous overnight optimizer
+
+An agent that runs on a Trainium instance and keeps optimizing models
+overnight, no human in the loop — cycles a seed list forever, auto-promotes
+what it learns into a shared knowledge bank so subsequent models compound
+those wins. Latest overnight run (native-pytorch on trn2.48xlarge):
+
+| Model | Speedup vs eager baseline |
+|-------|--------------------------:|
+| Qwen3-0.6B | **13.80×** |
+| Qwen3-1.7B | **11.05×** |
+| Qwen3-4B   | **10.79×** |
+| Qwen3-8B   |  **8.56×** |
+| Qwen3-32B  |  **7.88×** |
+
+See [`autonomous-optimizer/`](./autonomous-optimizer/) for the full leaderboard,
+per-model trajectory charts, and the technical notes. Framework code:
+[`trainium-optimizer`](https://github.com/arminagha1234/trainium-optimizer).
+
 ## How to invite your students
 
 > _TODO: step-by-step guide for giving students access._
