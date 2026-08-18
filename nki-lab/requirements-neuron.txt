@@ -1,0 +1,15 @@
+# Pinned Neuron dependencies for the NKI class venv.
+#
+# Verified on the AWS Neuron Multi-Framework DLAMI (Ubuntu 24.04, Python 3.12),
+# Neuron SDK 2.27, on a trn2.3xlarge (Aug 2026).
+#
+# Install via the Neuron pip repo as an extra index:
+#   pip install -r requirements-neuron.txt --extra-index-url https://pip.repos.neuron.amazonaws.com
+#
+# neuronx-cc pulls nki + numpy + scipy + ml_dtypes transitively; we pin the two
+# packages we care about explicitly. The exact resolved set (incl. numpy) is
+# captured in requirements-lock.txt by setup_venv.sh for byte-for-byte repro.
+
+neuronx-cc==2.27.5334.0
+nki==0.6.0
+numpy
